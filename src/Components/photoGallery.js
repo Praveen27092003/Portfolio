@@ -49,10 +49,10 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/Award/IAT_Madaras.jpg"className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/Award/IAT_Madaras.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="/assests/img/Award/pals_certificate.jpg" height="225px" className=" object_fit_cover rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/Award/pals_certificate.jpg")} height="225px" className=" object_fit_cover rounded" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div> 
@@ -85,10 +85,10 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/vollyball2.jpg" className="img-fluid rounded h-100 w-100" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/vollyball2.jpg")} className="img-fluid rounded h-100 w-100" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/vollyball_certificate.jpg" height="auto" className=" object_fit_cover rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/vollyball_certificate.jpg")} height="auto" className=" object_fit_cover rounded" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div> 
@@ -124,10 +124,10 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/IAT1.png"   className="img-fluid  rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/IAT1.png")}   className="img-fluid  rounded" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/pals_Photo.jpg" height="453px" className="  rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/pals_Photo.jpg")} height="453px" className="  rounded" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div> 
@@ -157,7 +157,7 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/EEE_symposium.jpg" className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/EEE_symposium.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                                 {/* <SwiperSlide>
                                 <img src={getPublicUrl("/assests/img/gallery/entrepeuner_2.jpg")} className="img-fluid rounded" alt="" />
@@ -191,10 +191,10 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/kabadi_certificate.jpg" className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/kabadi_certificate.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                <img src="/assests/img/gallery/badminton_certificate.jpg" className="" height="auto" alt="" />
+                                <img src={getPublicUrl("/assests/img/gallery/badminton_certificate.jpg")} className="" height="auto" alt="" />
 
                                 </SwiperSlide>
                             </Swiper>
@@ -255,11 +255,11 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/cricket.jpg" className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/cricket.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/vollyball2.jpg" className="d-md-block d-none object_fit_cover rounded" height="355px" alt="" />
-                                    <img src="/assests/img/gallery/vollyball2.jpg" className="d-md-none d-block object_fit_cover rounded" height="184px" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/vollyball2.jpg")} className="d-md-block d-none object_fit_cover rounded" height="355px" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/vollyball2.jpg")} className="d-md-none d-block object_fit_cover rounded" height="184px" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div> 
@@ -274,7 +274,7 @@ export default function PhotoGallery(){
 
                     <div className="gallery_img pt-2">
                         <div className="overflow-hidden img_section">
-                            <img src="/assests/img/gallery/badminton_certificate.jpg" className="img-fluid rounded" alt="" />
+                            <img src={getPublicUrl("/assests/img/gallery/badminton_certificate.jpg")} className="img-fluid rounded" alt="" />
                         </div> 
                         <div className="publisher-info p-4">
                             <div className="mb-2" style={{textIndent: '30px'}}>Passionate badminton player, actively participating in tournaments and events. Developed agility, precision, and strategic thinking, along with strong discipline and focus through consistent practice and competition.</div>
@@ -302,10 +302,10 @@ export default function PhotoGallery(){
                                 className="mySwiper"
                             >
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/IAT_webinar2.jpg" className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/IAT_webinar2.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img src="/assests/img/gallery/IAT_campus.jpg" className="img-fluid rounded" alt="" />
+                                    <img src={getPublicUrl("/assests/img/gallery/IAT_campus.jpg")} className="img-fluid rounded" alt="" />
                                 </SwiperSlide>
                             </Swiper>
                         </div> 

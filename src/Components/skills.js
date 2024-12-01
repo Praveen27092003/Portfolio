@@ -1,4 +1,4 @@
-
+const getPublicUrl = (path) => `${process.env.PUBLIC_URL}${path}`;
 
 
 export default function Skills(){
@@ -17,28 +17,28 @@ export default function Skills(){
                         <div className="d-flex flex-wrap  align-items-center justify-content-center skillInnerBox">
                       
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/html.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">HTML</span>
+                            <img src={getPublicUrl("/assests/img/svg/html.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">HTML</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/css.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">CSS</span>
+                            <img src={getPublicUrl("/assests/img/svg/css.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">CSS</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/js.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Javascript</span>
+                            <img src={getPublicUrl("/assests/img/svg/js.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Javascript</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/react.svg" width="30px" alt=""/><span className="h5  mb-0">React Js</span>
+                            <img src={getPublicUrl("/assests/img/svg/react.svg")} width="30px" alt=""/><span className="h5  mb-0">React Js</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/redux.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Redux</span>
+                            <img src={getPublicUrl("/assests/img/svg/redux.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Redux</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/bootstrap-logo-shadow.png" height="31px" width="30px" alt=""/><span className="h5  mb-0">Bootstrap5</span>
+                            <img src={getPublicUrl("/assests/img/svg/bootstrap-logo-shadow.png")} height="31px" width="30px" alt=""/><span className="h5  mb-0">Bootstrap5</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/mediaQuery.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Media Query</span>
+                            <img src={getPublicUrl("/assests/img/svg/mediaQuery.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Media Query</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/Tailwind_CSS_Logo.svg.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Tailwind CSS</span>
+                            <img src={getPublicUrl("/assests/img/svg/Tailwind_CSS_Logo.svg.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Tailwind CSS</span>
                         </div>
                     </div>
                     </div>
@@ -49,20 +49,20 @@ export default function Skills(){
                         <div className="d-flex flex-wrap  align-items-center justify-content-center skillInnerBox" style={{gap : '15px'}}>
                       
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/nodejs_light.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Node Js</span>
+                            <img src={getPublicUrl("/assests/img/svg/nodejs_light.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Node Js</span>
                         </div>
                         {/* <div className="d-flex align-items-center justify-content-center skillBox">
                             <img src={getPublicUrl("/assests/img/svg/django.svg")} height="26px" width="30px" alt=""/><span className="h5  mb-0">Django</span>
                         </div> */}
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/expressjs_light-removebg.png" height="25px" width="26px" alt=""/><span className="h5  mb-0">Express Js</span>
+                            <img src={getPublicUrl("/assests/img/svg/expressjs_light-removebg.png")} height="25px" width="26px" alt=""/><span className="h5  mb-0">Express Js</span>
                         </div>
                         
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/mongodb_light.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Mongo DB</span>
+                            <img src={getPublicUrl("/assests/img/svg/mongodb_light.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Mongo DB</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img className="rounded-circle" src="/assests/img/svg/mysql_light.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">MySQL</span>
+                            <img className="rounded-circle" src={getPublicUrl("/assests/img/svg/mysql_light.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">MySQL</span>
                         </div>
                     </div>
                     </div>
@@ -77,32 +77,32 @@ export default function Skills(){
                         <div className="d-flex flex-wrap  align-items-center justify-content-center skillInnerBox" style={{gap : '11px'}}>
                       
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/github_png_icon.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Github</span>
+                            <img src={getPublicUrl("/assests/img/svg/github_png_icon.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Github</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/vscode.svg" height="25px" width="26px" alt=""/><span className="h5  mb-0">VS Code</span>
+                            <img src={getPublicUrl("/assests/img/svg/vscode.svg")} height="25px" width="26px" alt=""/><span className="h5  mb-0">VS Code</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/mongodb_light.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Mongo Compass</span>
+                            <img src={getPublicUrl("/assests/img/svg/mongodb_light.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Mongo Compass</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/c.svg" height="25px" width="26px" alt=""/><span className="h5  mb-0">C</span>
+                            <img src={getPublicUrl("/assests/img/svg/c.svg")} height="25px" width="26px" alt=""/><span className="h5  mb-0">C</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/java.svg" height="25px" width="26px" alt=""/><span className="h5  mb-0">Java</span>
+                            <img src={getPublicUrl("/assests/img/svg/java.svg")} height="25px" width="26px" alt=""/><span className="h5  mb-0">Java</span>
                         </div>
                         
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/postman.svg" height="26px" width="30px" alt=""/><span className="h5  mb-0">Postman</span>
+                            <img src={getPublicUrl("/assests/img/svg/postman.svg")} height="26px" width="30px" alt=""/><span className="h5  mb-0">Postman</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/Eclipse-IDE.png" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Eclipse</span>
+                            <img src={getPublicUrl("/assests/img/svg/Eclipse-IDE.png")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Eclipse</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/Figma-logo.svg.png" className="rounded-circle" height="26px" width="25px" alt=""/><span className="h5  mb-0">Figma</span>
+                            <img src={getPublicUrl("/assests/img/svg/Figma-logo.svg.png")} className="rounded-circle" height="26px" width="25px" alt=""/><span className="h5  mb-0">Figma</span>
                         </div>
                         <div className="d-flex align-items-center justify-content-center skillBox">
-                            <img src="/assests/img/svg/Canva_icon_2021.svg" height="inherit" width="30px" alt=""/><span className="h5  mb-0">Canva</span>
+                            <img src={getPublicUrl("/assests/img/svg/Canva_icon_2021.svg")} height="inherit" width="30px" alt=""/><span className="h5  mb-0">Canva</span>
                         </div>
                     </div>
                     </div>

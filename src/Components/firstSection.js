@@ -2,7 +2,7 @@
 import Typewriter from 'typewriter-effect';
 import 'hover.css/css/hover-min.css';
 
-
+const getPublicUrl = (path) => `${process.env.PUBLIC_URL}${path}`;
 
 
 export default function FirstSection() {
@@ -20,7 +20,7 @@ export default function FirstSection() {
                             <div className="backRight"></div>
                             <div className="mainImage overflow-hidden" >
                                     {/* <img src="./assests/img/gallery/bals_cropped_2_ai_enhance-removebg.png" className="img-fluid"  /> */}
-                                    <img src="/assests/img/gallery/Praveen_photo2.png" className="img-fluid" />
+                                    <img src={getPublicUrl("/assests/img/gallery/Praveen_photo2.png")} className="img-fluid" />
                             </div>
                         </div>
                         <div className="col-xl-7 col-sm-12 mainDetails">
@@ -47,24 +47,24 @@ export default function FirstSection() {
                                     <div className="col-xl-2 col-12 fw-bold contact text-xl-start h3 text-center d-flex align-items-center">Contact</div>
                                     <div className="col-xl-5 col-12 pe-xl-4 ps-xl-0  px-4 contactInfo">
                                         <div className="contactbox hvr-buzz-out">
-                                            <a  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHGvdcLVbVPQjbpWtVQNjdZGqFQwFVWXCXlQprKWtVCCqCpVbLRSDcHmdgbJpbcTZnjDCl" target="_blank"><img className="img-fluid p-2" src="/assests/img/svg/gmail_icon_new.svg"title="Gmail" alt="" /></a> 
+                                            <a  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdHGvdcLVbVPQjbpWtVQNjdZGqFQwFVWXCXlQprKWtVCCqCpVbLRSDcHmdgbJpbcTZnjDCl" target="_blank"><img className="img-fluid p-2" src={getPublicUrl("/assests/img/svg/gmail_icon_new.svg")} title="Gmail" alt="" /></a> 
                                         </div>
                                         <div className="contactBoxLine"></div>
                                         <div className="contactbox hvr-buzz-out">
                                             <a href="https://www.linkedin.com/in/praveenbaskar2003" target="_blank" >
-                                                <img className="img-fluid p-2" src="/assests/img/svg/linkedin_2_new.svg" title="LinkedIn" alt="" />
+                                                <img className="img-fluid p-2" src={getPublicUrl("/assests/img/svg/linkedin_2_new.svg")} title="LinkedIn" alt="" />
                                             </a>
                                         </div>
                                         <div className="contactBoxLine"></div>
                                         <div className="contactbox hvr-buzz-out">
                                             <a href="https://github.com/Praveen27092003" target="_blank">
-                                                <img className="img-fluid p-2 rounded-circle" src="/assests/img/svg/github_png_icon.png" title="Github" alt="" />
+                                                <img className="img-fluid p-2 rounded-circle" src={getPublicUrl("/assests/img/svg/github_png_icon.png")} title="Github" alt="" />
                                             </a> 
                                         </div>
                                         <div className="contactBoxLine"></div>
                                         <div className="contactbox hvr-buzz-out" style={{height:'46px' , width : '46px'}}>
                                             <a href="https://api.whatsapp.com/send?phone=9342933803" target="_blank">
-                                            <img className="img-fluid p-2" src="/assests/img/svg/whatsapp.svg" title="Whatsapp" alt="" />
+                                            <img className="img-fluid p-2" src={getPublicUrl("/assests/img/svg/whatsapp.svg" )}title="Whatsapp" alt="" />
                                             </a>
                                         </div>
                                     </div>
