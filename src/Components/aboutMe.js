@@ -48,9 +48,9 @@ const triggerConfetti = (shapes, colors) => {
   });
   
   // Example usage for different shapes and colors:
-  triggerConfetti([pumpkin], ['#ff9a00', '#ff7400', '#ff4d00']);
-  triggerConfetti([tree], ['#8d960f', '#be0f10', '#445404']);
-  triggerConfetti([heart], ['#f93963', '#a10864', '#ee0b93']);
+  // triggerConfetti([pumpkin], ['#ff9a00', '#ff7400', '#ff4d00']);
+  // triggerConfetti([tree], ['#8d960f', '#be0f10', '#445404']);
+  // triggerConfetti([heart], ['#f93963', '#a10864', '#ee0b93']);
   
     
     
